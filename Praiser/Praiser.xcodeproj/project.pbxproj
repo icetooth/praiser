@@ -79,13 +79,9 @@
 		2CF8C18A205D415400C3238D /* Praiser */ = {
 			isa = PBXGroup;
 			children = (
-				2CF8C18B205D415400C3238D /* AppDelegate.swift */,
-				2CF8C18D205D415400C3238D /* ViewController.swift */,
-				2CF8C18F205D415400C3238D /* Main.storyboard */,
-				2CF8C195205D415400C3238D /* Assets.xcassets */,
-				2CF8C197205D415400C3238D /* LaunchScreen.storyboard */,
-				2CF8C19A205D415400C3238D /* Info.plist */,
-				2CF8C192205D415400C3238D /* Praiser.xcdatamodeld */,
+				2CF8C1B32061042A00C3238D /* Classes */,
+				2CF8C1B2206103F200C3238D /* OtherSources */,
+				2CF8C1AF206103B100C3238D /* Resources */,
 			);
 			path = Praiser;
 			sourceTree = "<group>";
@@ -97,6 +93,34 @@
 				2CF8C1A5205D415400C3238D /* Info.plist */,
 			);
 			path = PraiserTests;
+			sourceTree = "<group>";
+		};
+		2CF8C1AF206103B100C3238D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2CF8C195205D415400C3238D /* Assets.xcassets */,
+				2CF8C192205D415400C3238D /* Praiser.xcdatamodeld */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		2CF8C1B2206103F200C3238D /* OtherSources */ = {
+			isa = PBXGroup;
+			children = (
+				2CF8C18B205D415400C3238D /* AppDelegate.swift */,
+				2CF8C18F205D415400C3238D /* Main.storyboard */,
+				2CF8C197205D415400C3238D /* LaunchScreen.storyboard */,
+				2CF8C19A205D415400C3238D /* Info.plist */,
+			);
+			name = OtherSources;
+			sourceTree = "<group>";
+		};
+		2CF8C1B32061042A00C3238D /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				2CF8C18D205D415400C3238D /* ViewController.swift */,
+			);
+			name = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
